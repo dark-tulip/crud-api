@@ -90,8 +90,8 @@ router.patch('/:postID', async(req, res) => {
                 price: req.body.price } 
             }
         );
-        res.json(updatedPost);
-        console.log("Updated " +req.params.postID)
+        res.json(await Post.findById(req.params.postID));
+        console.log("Updated " + req.params.postID)
 
     } catch (err) {
         res.json({ message: err });
