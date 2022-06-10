@@ -1,4 +1,4 @@
-# post-api
+# crud-api
 Cтек технологий: mongoDB, nodeJS, mongoose, Postman, express
 
 Пушим, патчим и делетим данные с модельки в mongoDB
